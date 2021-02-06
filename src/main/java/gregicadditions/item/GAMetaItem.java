@@ -390,6 +390,58 @@ public class GAMetaItem extends MaterialMetaItem {
         SEPARATION_ELECTROMAGNET = addItem(521, "separation.electromagnet");
         SPHERE_FIELD_SHAPE = addItem(522, "sphere.field.shape");
 
+        AEROGRAPHENE = addItem(523,"aerographene");
+        SCINTILLATOR_CRYSTAL = addItem(524,"scintillator_crystal");
+        SCINTILLATOR = addItem(525,"scintillator");
+        LEPTON_TRAP_CRYSTAL =  addItem(526,"lepton_trap_crystal");
+        HASSIUM_SEED_CRYSTAL = addItem(527, "hassium_seed_crystal");
+        HASSIUM_BOULE = addItem(520,"hassium_boule");
+        HASSIUM_WAFER = addItem(528,"hassium_wafer");
+        COATED_HASSIUM_WAFER = addItem(529, "coated_hassium_wafer");
+        PHOTOCOATED_HASSIUM_WAFER = addItem(530,"photocoated_hassium_wafer");
+        GRATING_LITHOGRAPHY_MASK = addItem(531, "grating_lithography_mask");
+        DIFFRACTOR_GRATING_MIRROR = addItem(532,"diffractor_grating_mirror");
+        ULTRASHORT_PULSE_LASER = addItem(533,"ultrashort_pulse_laser");
+        SMD_CAPACITOR_COSMIC = addItem(534,"smd_capacitor_cosmic");
+        SMD_DIODE_COSMIC = addItem(535,"smd_diode_cosmic");
+        SMD_RESISTOR_COSMIC = addItem(536,"smd_resistor_cosmic");
+        SMD_TRANSISTOR_COSMIC = addItem(537,"smd_transistor_cosmic");
+        COSMIC_PROCESSING_UNIT_CORE = addItem(538,"cosmic_processing_unit_core");
+        COSMIC_PROCESSING_CORE = addItem(539,"cosmic_processing_core");
+        GRAPHENE_IRON_PLATE = addItem(540,"graphene_iron_plate");
+        CUPRIVADUS_CULTURE = addItem(541, "cupriavidus.culture");
+
+        SMD_CAPACITOR_SUPRACAUSAL = addItem(542, "smd.capacitor.supracausal");
+        SMD_RESISTOR_SUPRACAUSAL = addItem(543, "smd.resistor.supracausal");
+        SMD_DIODE_SUPRACAUSAL = addItem(544, "smd.diode.supracausal");
+        SMD_TRANSISTOR_SUPRACAUSAL = addItem(545, "smd.transistor.supracausal");
+
+        SUPRACAUSAL_PROCESSOR = addItem(546, "circuit.processor.supracausal").setUnificationData(OrePrefix.circuit, UEV);
+        SUPRACAUSAL_ASSEMBLY = addItem(547, "circuit.assembly.supracausal").setUnificationData(OrePrefix.circuit, UIV);
+        SUPRACAUSAL_COMPUTER = addItem(548, "circuit.computer.supracausal").setUnificationData(OrePrefix.circuit, UMV);
+        SUPRACAUSAL_MAINFRAME = addItem(549, "circuit.mainframe.supracausal").setUnificationData(OrePrefix.circuit, UXV);
+
+        TOPOLOGICAL_MANIPULATOR_UNIT = addItem(550, "topological.manipulator.unit");
+        RELATIVISTIC_SPINORIAL_MEMORY_SYSTEM = addItem(551, "relativistic.spinorial.memory.system");
+        GRAVITON_TRANSDUCER = addItem(552, "graviton.transducer");
+        NUCLEAR_CLOCK = addItem(553, "nuclear.clock");
+        SUPRACAUSAL_PROCESSING_CORE = addItem(554, "supracausal.processing.core");
+        MANIFOLD_OSCILLATORY_POWER_CELL = addItem(555, "manifold.oscillatory.power.cell");
+        QCD_PROTECTIVE_PLATING = addItem(556, "qcd.protective.plating");
+        CTC_GUIDANCE_UNIT = addItem(557, "ctc.guidance.unit");
+        CTC_COMPUTATIONAL_UNIT_CONTAINER = addItem(558, "ctc.computational.unit.container");
+        EIGENFOLDED_KERR_MANIFOLD = addItem(559, "eigenfolded.kerr.manifold");
+        CTC_COMPUTATIONAL_UNIT = addItem(560, "ctc.computational.unit");
+        RECURSIVELY_FOLDED_NEGATIVE_SPACE = addItem(561, "recursively.folded.negative.space");
+        
+        WIRE_FIELD_SHAPE = addItem(562,"wire.field.shape");
+        EXTREMELY_DURABLE_PLASMA_CELL = addItem(563,"extremely.durable.plasma.cell");
+        DENSE_NEUTRON_PLASMA_CELL = addItem(564,"dense.neutron.plasma.cell");
+        COSMIC_NEUTRON_PLASMA_CELL = addItem(565,"cosmic.neutron.plasma.cell");
+        HIGHLY_DENSE_POLYMER_PLATE = addItem(566,"highly.dense.polymer.plate");
+        COSMIC_MESH_CONTAINMENT_UNIT = addItem(567,"cosmic.mesh.containment.unit");
+        COSMIC_MESH = addItem(568,"cosmic.mesh");
+        COSMIC_FABRIC = addItem(569,"cosmic.fabric");
 
         ThoriumRadioactive.waste = THORIUM_WASTE;
         Protactinium.waste = PROTACTINIUM_WASTE;

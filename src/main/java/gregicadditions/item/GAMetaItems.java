@@ -40,7 +40,9 @@ public class GAMetaItems {
     public static MetaItem<?>.MetaValueItem SMD_CAPACITOR_WETWARE;
     public static MetaItem<?>.MetaValueItem SMD_CAPACITOR_BIOWARE;
     public static MetaItem<?>.MetaValueItem SMD_CAPACITOR_OPTICAL;
-
+    public static MetaItem<?>.MetaValueItem SMD_CAPACITOR_COSMIC;
+    public static MetaItem<?>.MetaValueItem SMD_CAPACITOR_SUPRACAUSAL;
+    
     public static MetaItem<?>.MetaValueItem SMD_RESISTOR_REFINED;
     public static MetaItem<?>.MetaValueItem SMD_RESISTOR_NANO;
     public static MetaItem<?>.MetaValueItem SMD_RESISTOR_QUANTUM;
@@ -48,6 +50,8 @@ public class GAMetaItems {
     public static MetaItem<?>.MetaValueItem SMD_RESISTOR_WETWARE;
     public static MetaItem<?>.MetaValueItem SMD_RESISTOR_BIOWARE;
     public static MetaItem<?>.MetaValueItem SMD_RESISTOR_OPTICAL;
+    public static MetaItem<?>.MetaValueItem SMD_RESISTOR_COSMIC;
+    public static MetaItem<?>.MetaValueItem SMD_RESISTOR_SUPRACAUSAL;
     
     public static MetaItem<?>.MetaValueItem SMD_DIODE_REFINED;
     public static MetaItem<?>.MetaValueItem SMD_DIODE_NANO;
@@ -56,6 +60,8 @@ public class GAMetaItems {
     public static MetaItem<?>.MetaValueItem SMD_DIODE_WETWARE;
     public static MetaItem<?>.MetaValueItem SMD_DIODE_BIOWARE;
     public static MetaItem<?>.MetaValueItem SMD_DIODE_OPTICAL;
+    public static MetaItem<?>.MetaValueItem SMD_DIODE_COSMIC;
+    public static MetaItem<?>.MetaValueItem SMD_DIODE_SUPRACAUSAL;
 
     public static MetaItem<?>.MetaValueItem SMD_TRANSISTOR_REFINED;
     public static MetaItem<?>.MetaValueItem SMD_TRANSISTOR_NANO;
@@ -64,6 +70,8 @@ public class GAMetaItems {
     public static MetaItem<?>.MetaValueItem SMD_TRANSISTOR_WETWARE;
     public static MetaItem<?>.MetaValueItem SMD_TRANSISTOR_BIOWARE;
     public static MetaItem<?>.MetaValueItem SMD_TRANSISTOR_OPTICAL;
+    public static MetaItem<?>.MetaValueItem SMD_TRANSISTOR_COSMIC;
+    public static MetaItem<?>.MetaValueItem SMD_TRANSISTOR_SUPRACAUSAL;
 
     //circuits
     public static MetaItem<?>.MetaValueItem PRIMITIVE_ASSEMBLY;
@@ -217,6 +225,11 @@ public class GAMetaItems {
     public static MetaItem<?>.MetaValueItem OPTICAL_ASSEMBLY;
     public static MetaItem<?>.MetaValueItem OPTICAL_COMPUTER;
     public static MetaItem<?>.MetaValueItem OPTICAL_MAINFRAME;
+
+    public static MetaItem<?>.MetaValueItem SUPRACAUSAL_PROCESSOR;
+    public static MetaItem<?>.MetaValueItem SUPRACAUSAL_ASSEMBLY;
+    public static MetaItem<?>.MetaValueItem SUPRACAUSAL_COMPUTER;
+    public static MetaItem<?>.MetaValueItem SUPRACAUSAL_MAINFRAME;
     
     public static MetaItem<?>.MetaValueItem WAFER_DUBNIUM;
     public static MetaItem<?>.MetaValueItem WAFER_RUTHERFORDIUM;
@@ -295,6 +308,7 @@ public class GAMetaItems {
     public static MetaItem<?>.MetaValueItem ESCHERICHIA_CULTURE;
     public static MetaItem<?>.MetaValueItem BIFIDOBACTERIUM_CULTURE;
     public static MetaItem<?>.MetaValueItem BREVIBACTERIUM_CULTURE;
+    public static MetaItem<?>.MetaValueItem CUPRIVADUS_CULTURE;
 
     public static MetaItem<?>.MetaValueItem BATTERY_SMALL_VANADIUM_EMPTY;
     public static MetaItem<?>.MetaValueItem BATTERY_SMALL_VANADIUM;
@@ -411,6 +425,45 @@ public class GAMetaItems {
     public static MetaItem<?>.MetaValueItem CONTAINED_EXOTIC_MATTER;
     public static MetaItem<?>.MetaValueItem SEPARATION_ELECTROMAGNET;
     public static MetaItem<?>.MetaValueItem SPHERE_FIELD_SHAPE;
+
+    public static MetaItem<?>.MetaValueItem AEROGRAPHENE;
+    public static MetaItem<?>.MetaValueItem SCINTILLATOR_CRYSTAL;
+    public static MetaItem<?>.MetaValueItem SCINTILLATOR;
+    public static MetaItem<?>.MetaValueItem LEPTON_TRAP_CRYSTAL;
+    public static MetaItem<?>.MetaValueItem HASSIUM_SEED_CRYSTAL;
+    public static MetaItem<?>.MetaValueItem HASSIUM_BOULE;
+    public static MetaItem<?>.MetaValueItem HASSIUM_WAFER;
+    public static MetaItem<?>.MetaValueItem COATED_HASSIUM_WAFER;
+    public static MetaItem<?>.MetaValueItem PHOTOCOATED_HASSIUM_WAFER;
+    public static MetaItem<?>.MetaValueItem GRATING_LITHOGRAPHY_MASK;
+    public static MetaItem<?>.MetaValueItem DIFFRACTOR_GRATING_MIRROR;
+    public static MetaItem<?>.MetaValueItem ULTRASHORT_PULSE_LASER;
+    public static MetaItem<?>.MetaValueItem COSMIC_PROCESSING_UNIT_CORE;
+    public static MetaItem<?>.MetaValueItem COSMIC_PROCESSING_CORE;
+    public static MetaItem<?>.MetaValueItem GRAPHENE_IRON_PLATE;
+
+    public static MetaItem<?>.MetaValueItem TOPOLOGICAL_MANIPULATOR_UNIT;
+    public static MetaItem<?>.MetaValueItem RELATIVISTIC_SPINORIAL_MEMORY_SYSTEM;
+    public static MetaItem<?>.MetaValueItem GRAVITON_TRANSDUCER;
+    public static MetaItem<?>.MetaValueItem NUCLEAR_CLOCK;
+    public static MetaItem<?>.MetaValueItem SUPRACAUSAL_PROCESSING_CORE;
+    public static MetaItem<?>.MetaValueItem MANIFOLD_OSCILLATORY_POWER_CELL;
+    public static MetaItem<?>.MetaValueItem QCD_PROTECTIVE_PLATING;
+    public static MetaItem<?>.MetaValueItem CTC_GUIDANCE_UNIT;
+    public static MetaItem<?>.MetaValueItem CTC_COMPUTATIONAL_UNIT_CONTAINER;
+    public static MetaItem<?>.MetaValueItem EIGENFOLDED_KERR_MANIFOLD;
+    public static MetaItem<?>.MetaValueItem CTC_COMPUTATIONAL_UNIT;
+    public static MetaItem<?>.MetaValueItem RECURSIVELY_FOLDED_NEGATIVE_SPACE;
+    
+    public static MetaItem<?>.MetaValueItem WIRE_FIELD_SHAPE;
+    public static MetaItem<?>.MetaValueItem EXTREMELY_DURABLE_PLASMA_CELL;
+    public static MetaItem<?>.MetaValueItem DENSE_NEUTRON_PLASMA_CELL;
+    public static MetaItem<?>.MetaValueItem COSMIC_NEUTRON_PLASMA_CELL;
+    public static MetaItem<?>.MetaValueItem HIGHLY_DENSE_POLYMER_PLATE;
+    public static MetaItem<?>.MetaValueItem COSMIC_MESH_CONTAINMENT_UNIT;
+    public static MetaItem<?>.MetaValueItem COSMIC_FABRIC;
+    public static MetaItem<?>.MetaValueItem COSMIC_MESH;
+
 
     
     public static void init() {
